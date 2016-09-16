@@ -1,4 +1,6 @@
 *~
+graphics/*.pdf
+graphics/*.psvg
 
 ## Core latex/pdflatex auxiliary files:
 *.aux

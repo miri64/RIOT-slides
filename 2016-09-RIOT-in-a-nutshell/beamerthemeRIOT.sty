@@ -1,0 +1,59 @@
+\mode<presentation>
+
+\definecolor{riotred}{RGB}{188, 32, 42}
+\definecolor{riotgreen}{RGB}{64, 166, 135}
+\definecolor{shadecolor}{RGB}{224, 224, 224}
+\definecolor{riotblack}{RGB}{0, 0, 0}
+
+\newcommand{\myurl}[1]{\textcolor{riotred}{\url{#1}}}
+
+\useinnertheme[shadow=true]{rounded}
+\useoutertheme{split}
+
+\setbeamertemplate{headline}
+{
+    \leavevmode
+    \hbox{
+        \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.5ex,dp=1.125ex]{section in head/foot}
+            \hbox to .5\paperwidth{\hfil\insertsectionhead\hfil}
+        \end{beamercolorbox}
+        \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.5ex,dp=1.125ex]{subsection in head/foot}
+            \hbox to .5\paperwidth{\hfil\insertsubsectionhead\hfil}
+        \end{beamercolorbox}
+    }
+}
+
+\addtobeamertemplate{navigation symbols}{}{%
+    \usebeamerfont{footline}%
+    \usebeamercolor[fg]{footline}%
+    \hspace{1em}%
+    \insertframenumber/\inserttotalframenumber
+}
+
+\setbeamercolor{title}{fg=riotgreen}
+\setbeamercolor{subtitle}{fg=riotred}
+\setbeamercolor{normal text}{fg=white,bg=riotblack}
+\setbeamercolor{structure}{fg=white}
+
+\setbeamercolor{alerted text}{fg=riotred!85!riotblack}
+
+\setbeamercolor{item projected}{use=item,fg=white,bg=riotred}
+
+\setbeamercolor{palette primary}{use=structure,fg=riotred}
+\setbeamercolor{palette secondary}{use=structure,fg=structure.fg!15!riotblack}
+\setbeamercolor{palette tertiary}{use=structure,fg=structure.fg!90!riotblack}
+\setbeamercolor{palette quaternary}{use=structure,fg=structure.fg!95!riotblack,bg=riotblack!80}
+
+\setbeamercolor*{frametitle}{fg=riotgreen}
+\setbeamercolor*{framesubtitle}{fg=white}
+
+\setbeamercolor*{block title}{parent=structure,fg=riotgreen,bg=riotblack!87}
+\setbeamercolor*{block body}{fg=riotred,bg=riotblack!80}
+\setbeamercolor*{block title alerted}{parent=alerted text,bg=riotblack!15}
+\setbeamercolor*{block title example}{parent=example text,bg=riotblack!15}
+
+\setbeamercolor{normal alerted}{fg=riotred}
+
+\mode
+<all>
+

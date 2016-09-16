@@ -1,0 +1,83 @@
+/*
+ * riot-svg.css
+ * Copyright (C) 2016 Martine Lenders
+ *
+ * Distributed under terms of the CC BY-SA 4.0.
+ */
+
+path.main, rect.main {
+  fill: #40a687;
+}
+
+path.solid, rect.solid {
+  fill: #275a4b;
+  stroke: #40a687;
+  stroke-width: 2px;
+}
+
+path.secondary, rect.secondary {
+  fill: #bc202a;
+}
+
+path.gray, rect.gray {
+  fill: #aaaaaa;
+}
+
+path.border, rect.border {
+  fill: none;
+  stroke: #ffffff;
+  stroke-linecap: round;
+  stroke-width: 1px;
+}
+
+path.alt_bg, rect.alt_bg {
+  fill: #274b5a;
+  fill-opacity: 0.9;
+}
+
+rect.legend {
+  stroke: #ffffff;
+  stroke-linecap: round;
+  stroke-width: 1px;
+}
+
+text {
+  font-family: 'Miso';
+  font-size: 12px;
+}
+
+text.main {
+  fill: #ffffff;
+}
+
+text.secondary {
+  fill: #ffffff;
+}
+
+text.gray {
+  fill: #ffffff;
+}
+
+text.alt_bg {
+  fill: #ffffff;
+}
+
+text.bold {
+  font-weight: bold;
+}
+
+text.left {
+  text-anchor: start;
+}
+
+text.centered {
+  text-anchor: middle;
+}
+
+text.right {
+  text-anchor: end;
+}
+
+text.highlight {
+  fill: #bc202a;
+}

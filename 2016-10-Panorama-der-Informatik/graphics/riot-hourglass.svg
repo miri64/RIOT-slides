@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="riot-svg.css" type="text/css"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="102.5mm"
+     height="40mm"
+     viewBox="0 0 328 128"
+     version="1.1">
+  <defs>
+    <style type="text/css">
+      <![CDATA[
+        path.main, rect.main {
+          fill: #40a687;
+        }
+
+        path.solid, rect.solid {
+          fill: #275a4b;
+          stroke: #40a687;
+          stroke-width: 2px;
+        }
+
+        path.secondary, rect.secondary {
+          fill: #bc202a;
+        }
+
+        path.gray, rect.gray {
+          fill: #aaaaaa;
+        }
+
+        path.border, rect.border {
+          fill: none;
+          stroke: #ffffff;
+          stroke-linecap: round;
+          stroke-width: 1px;
+        }
+
+        path.alt_bg, rect.alt_bg {
+          fill: #274b5a;
+          fill-opacity: 0.9;
+        }
+
+        rect.legend {
+          stroke: #ffffff;
+          stroke-linecap: round;
+          stroke-width: 1px;
+        }
+
+        text {
+          font-family: 'Miso';
+          font-size: 12px;
+        }
+
+        text.main {
+          fill: #ffffff;
+        }
+
+        text.secondary {
+          fill: #ffffff;
+        }
+
+        text.gray {
+          fill: #ffffff;
+        }
+
+        text.alt_bg {
+          fill: #ffffff;
+        }
+
+        text.bold {
+          font-weight: bold;
+        }
+
+        text.left {
+          text-anchor: start;
+        }
+
+        text.centered {
+          text-anchor: middle;
+        }
+
+        text.right {
+          text-anchor: end;
+        }
+
+        text.highlight {
+          fill: #bc202a;
+        }
+      ]]>
+    </style>
+  </defs>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work rdf:about="Provides a general overview over RIOT's GNRC Network Stack">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>RIOT -- hourglass view</dc:title>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Martine Lenders</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g id="hour-glass">
+    <path id="hour-glass-main-fill" class="main"
+          d="M 1,1
+             L 1,14
+             C 1,42 85,42 85,64
+               85,86 1,86 1,112
+             L 1,127
+             L 219,127
+             L 219,112
+             C 219,86 135,86 135,64
+               135,42 219,42 219,14
+             L 219,1 z" />
+    <path id="hour-glass-secondary-fill" class="secondary"
+          d="M 1,1
+             L 1,14
+             C 1,38.7 66.2,41.6 81.7,57
+             L 90,57
+             L 90,15
+             L 219,15
+             C 219,14.7 219,14.3 219,14
+             L 219,1
+             L 1,1 z
+             M 110,71
+             L 110,99
+             L 210,99
+             C 191.6,87.2 150.3,82.8 138.3,71
+             L 110,71 z " />
+    <path id="hour-glass-gray-fill" class="gray"
+          d="M 10,99
+             C 4.6,102.6 1,106.7 1,112
+             L 1,127
+             L 219,127
+             L 219,112
+             C 219,106.7 215.4,102.6 210,99
+             L 10,99 z" />
+    <path id="hour-glass-outer-border" class="border"
+          d="M 1,1
+             L 1,14
+             C 1,42 85,42 85,64
+               85,86 1,86 1,112
+             L 1,127
+             M 219,127
+             L 219,112
+             C 219,86 135,86 135,64
+               135,42 219,42 219,14
+             L 219,1" />
+    <path id="hour-glass-inner-grid" class="border"
+          d="M 1,15 219,15
+             M 90,15 90,57
+             M 90,29 208.5,29
+             M 81.7,57 138.3,57
+             M 81.7,71 138.3,71
+             M 110,71 110,99
+             M 10.8,99 209.2,99" />
+    <text class="secondary centered" x="110" y="12">
+      <tspan>Closed &amp; Open Source IoT Applications</tspan>
+    </text>
+    <text class="secondary right" x="87" y="26">
+      <tspan x="87" y="26">Other Netw. Stacks</tspan><tspan x="87" y="40">(e.g. ICN)</tspan>
+    </text>
+    <text class="main centered" x="154.5" y="26">
+      <tspan>CoAP, CBOR, ...</tspan>
+    </text>
+    <text class="main left" x="93" y="40">
+      <tspan x="93" y="40">RPL, UDP, …</tspan><tspan x="93" y="54">IPv6, 6Lo, …</tspan>
+    </text>
+    <text class="main bold left" x="145" y="43">
+      <tspan>GNRC</tspan>
+    </text>
+    <text class="main centered" x="110" y="68">
+      <tspan>μ-Kernel</tspan>
+    </text>
+    <text class="secondary right" x="107" y="82">
+      <tspan x="107" y="82">Open</tspan><tspan x="107" y="96">Device Drivers</tspan>
+    </text>
+    <text class="secondary left" x="93" y="82">
+      <tspan x="113" y="82">Closed</tspan><tspan x="113" y="96">Device Drivers</tspan>
+    </text>
+    <text class="main centered" x="110" y="110">
+      <tspan x="110" y="110">Peripherals (including network interfaces)</tspan>
+      <tspan x="110" y="124">Low-Power MCU + radio or wired communication</tspan>
+    </text>
+  </g>
+  <g id="legend" transform="translate(228,8)">
+    <g id="legend-main">
+      <rect class="main legend" x="0" y="0" width="14" height="14" rx="2" ry="2" />
+      <image x="14" y="1" width="27" height="12" xlink:href="Logo.svg" />
+    </g>
+    <g id="legend-secondary" transform="translate(0,20)">
+      <rect class="secondary legend" x="0" y="0" width="14" height="14" rx="2" ry="2" />
+      <text class="main left" x="17" y="11">
+        <tspan>Third-party software</tspan>
+      </text>
+    </g>
+    <g id="legend-gray" transform="translate(0,40)">
+      <rect class="gray legend" x="0" y="0" width="14" height="14" rx="2" ry="2" />
+      <text class="main left" x="17" y="11">
+        <tspan>Hardware</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

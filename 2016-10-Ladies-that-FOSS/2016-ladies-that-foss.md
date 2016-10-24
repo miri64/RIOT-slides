@@ -22,6 +22,7 @@ mainfont: Miso
 * Open Software, Open Standards (close ties between RIOT and IETF community)
 * \>98% of code-base in C
 * On application level:
+    - partly POSIX compliant (libc, sockets, pthreads, ...)
     - C++ support (incl. rudimentary Arduino-like API)
     - (Micro-)Python and Rust support pending
 

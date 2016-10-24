@@ -43,6 +43,7 @@ mainfont: Miso
     - academia
     - makers/tinkerers
 * 1st RIOT community summit in June 2016, next one pending September 2017
+* Full UDP/IPv6 over IEEE 802.15.4 (aka 6LoWPAN) stack
 * Support for various CPU architectures:
     - ARM Cortex-M / ARM7
     - TI MSP430

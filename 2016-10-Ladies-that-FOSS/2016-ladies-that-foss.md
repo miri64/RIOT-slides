@@ -8,7 +8,7 @@ author:
   - Kate Kirstein
   - Martine Lenders
   - Lotte Steenbrink
-date: "12.10.2016"
+date: "Oct 29th 2016"
 theme: RIOT
 mainfont: Miso
 ...

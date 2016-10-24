@@ -1,0 +1,18 @@
+\usepackage{caption}
+
+\captionsetup[figure]{labelformat=empty}
+\DeclareGraphicsExtensions{.pdf,.jpg,.png,.tif}
+\titlegraphic{\includegraphics[width=.5\textwidth]{graphics/Logo.pdf}}
+\setbeamertemplate{enumerate items}[default]
+\setbeamertemplate{itemize items}[circle]
+\setbeamertemplate{section in toc}[sections numbered]
+\setbeamertemplate{subsection in toc}[subsections numbered]
+
+\renewcommand<>{\textbf}[1]{{\only#2{\color{riotgreen}\bfseries}#1}}
+\renewcommand<>{\emph}[1]{{\only#2{\color{riotred}}#1}}
+
+\AtBeginSection{
+    \begin{frame}
+        \tableofcontents[currentsection,hideallsubsections]
+    \end{frame}
+}

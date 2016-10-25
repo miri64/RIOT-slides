@@ -5,7 +5,7 @@ section-titles: false
 title: RIOT
 subtitle: The Friendly Operating System for the IoT
 author:
-  - Kate Kirstein
+  - Katja Kirstein
   - Martine Lenders
   - Lotte Steenbrink
 date: "Oct 29th 2016"

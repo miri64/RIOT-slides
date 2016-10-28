@@ -55,12 +55,12 @@ mainfont: Miso
 * Monthly Hack'n'ACK party (last Tuesday of the month, 5pm)
     - Drink beer, eat pizza, get your PRs merged
     - Next: November 29th, 2016
-    - Berlin: FU Berlin, Takustr. 9, 14195 Berlin
-    - Hamburg: HAW Hamburg, Berliner Tor 5, 20099 Hamburg
-    - Saclay: INRIA Saclay, 1 Rue Honoré d'Estienne d'Orves, 91120 Palaiseau
-    - Or join remotely (lookout for the PlaceCam link at devel@riot-os.org)
+        + Berlin: FU Berlin, Takustr. 9, 14195 Berlin
+        + Hamburg: HAW Hamburg, Berliner Tor 5, 20099 Hamburg
+        + (Saclay: INRIA Saclay, 1 Rue Honoré d'Estienne d'Orves, 91120 Palaiseau)
+        + Or join remotely (lookout for the PlaceCam link at devel@riot-os.org)
 * Annual RIOT community summit:
     - 1st in June 2016
     - Next: already planned (accompanying ACM ICN in Berlin,
       September 2017, see https://summit.riot-os.org)
-* Find us at IETF meetings (at least Europe- and US-based)
+* Find us at IETF meetings (at least Europe- and (N/S)-America-based)
